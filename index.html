@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <div id="container">
+  <div id="content">
+  <meta charset="UTF-8">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+             crossorigin="anonymous"></script>
+  <title>Make Some Pixel Art!</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Spirax&effect=shadow-multiple">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Lab: Pixel Art Maker</h1>
+
+    <h2>Choose Your Grid Size</h2>
+    <form id="sizePicker">
+    <p>Enter a number between 1 and 30.</p>
+        <p> Grid height:
+        <input type="number" id="inputHeight" name="height" min="1" max="30" value="1"></p>
+        <p>Grid width:
+        <input type="number" id="inputWeight" name="width" min="1" max="30" value="1"></p>
+        <button type="submit" value="submit">Set up canvas</button>
+        <button type="reset" id="toggleBtn" value="Clear Grid">Clear canvas</button>
+    </form>
+
+    <h2>Pick a color and release your inner artist...</h2>
+    <input type="color" id="colorPicker">
+
+    </div>
+    <div id="navbar">
+    <h3>Design Canvas</h3>
+    <table id="pixelCanvas"></table>
+    <script src="designs.js"></script>
+    </div>
+    </div>
+
+</body>
+</html>

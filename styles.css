@@ -1,0 +1,89 @@
+#content {
+  float: left ;
+  width: 50% ;
+}
+#navbar {
+  float: right;
+  width: 50%;
+}
+
+body {
+    text-align: center;
+    font-family: Spirax;
+    font-size: 25px;
+    color: #BC70A4;
+    background-color: #F3D6E4;
+    background: url(bg6.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center center;
+}
+
+h1 {
+    font-family: Spirax;
+    font-size: 50px;
+    margin: 0.25em;
+    text-decoration: underline;
+    color: #6B5B95;
+}
+
+h2 {
+    font-family: Spirax;
+    font-size: 30px;
+    margin: 1em 0 0.25em;
+}
+
+h3 {
+    font-family: Spirax;
+    font-size: 50px;
+    margin: 0.25em;
+    color: #6B5B95;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+table,
+tr,
+td {
+    border: 2px solid maroon;
+}
+
+tr {
+    height: 7px;
+}
+
+th, td {
+    width: 7px;
+    padding: 7px;
+}
+
+input[type=number] {
+    width: 5em;
+    height: 2em;
+    font-family: Spirax;
+    font-size: 20px;
+    color: #6B5B95;
+}
+
+button {
+    border: none;
+    margin: 1em;
+    background-color: #DBB1CD;
+    font-size: 15px;
+    font-family: Spirax;
+    cursor: active;
+    cursor: pointer;
+    color: #BC70A4;
+    padding: 15px 32px;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+button:hover,
+button:focus {
+    background: #EADEDB;
+}
